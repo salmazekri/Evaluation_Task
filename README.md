@@ -13,3 +13,18 @@ evaluation task to be reviewed by Clad team
 - [`train_multiple_neurons.cpp`](clad_examples/train_multiple_neurons.cpp): Training simple entity with clad integration
 - [`train_transformer.cpp`](clad_examples/train_transformer.cpp): Simple transformer model implementation
 
+to run `train_transformer.cpp`:
+
+```sudo apt-get install libeigen3-dev
+clang++ -O3 -std=c++20 -fopenmp train_transformer.cpp -o train_transformer
+./train_transformer
+```
+
+to run `train_multiple_neurons.cpp` in clad environment:
+
+```clang++ -std=c++17 -O0 -g \
+-I/root/llvm-project/llvm/tools/clad/include \
+-I/usr/include/eigen3 \
+-fplugin=/root/llvm-project/llvm/tools/clad/build/lib/clad.so \
+train_multiple_neurons.cpp -o multiple
+./multiple```
