@@ -9,7 +9,7 @@ evaluation task to be reviewed by Clad team
 - [`test_gradient.cpp`](tests/test_gradient.cpp): Simple gradient computation example
 - [`test_hidden.cpp`](tests/test_hidden.cpp): Implementation of hidden layer computations
 
-### Neural Network Examples (`clad_examples/`)
+### LLM Entity Examples (`clad_examples/`)
 - [`train_multiple_neurons.cpp`](clad_examples/train_multiple_neurons.cpp): Training simple entity with clad integration
 - [`train_transformer.cpp`](clad_examples/train_transformer.cpp): Simple transformer model implementation
 
