@@ -1,5 +1,5 @@
 # Evaluation_Task
-evaluation task to be reviewed by Clad team
+evaluation task to be reviewed by the compiler research team
 ## Repository Structure
 
 ### Test Cases (`tests/`)
